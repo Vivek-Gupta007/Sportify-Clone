@@ -1,0 +1,101 @@
+body {
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-gap: 0.5rem;
+}
+
+.side-bar {
+    height: 100vh;
+    grid-column: 1 /span 2;
+}
+
+.main-content {
+    background-color: yellow;
+    grid-column: 3 /span 11;
+}
+
+.home-nav {
+    padding: 1rem 0.75rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;    
+}
+
+.home-nav {
+    font-size: 1.15rem;
+    color: white;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
+.home-nav:hover {
+   opacity: 1;
+}
+
+.home-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #121212;
+}
+
+.side-bar-library {
+    background-color:  #121212;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.your-libaray {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+.libaray-icon {
+    display: flex;
+    justify-content: center;
+    padding: 0.25rem 0.5rem;
+    opacity: 0.75;
+    font-weight: 600;
+}
+
+.libaray-icon:hover {
+    opacity: 1;
+}
+
+.libaray-icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+}
+
+.libaray-icon a {
+    text-decoration: none;
+    color: white;
+}
+
+.libaray-arrow i {
+    opacity: 0.75;
+    font-size: 1.15rem;
+}
+
+.libaray-arrow {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.libaray-arrow i:hover {
+    opacity: 1;
+}
