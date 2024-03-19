@@ -11,12 +11,6 @@ body {
 
 .side-bar {
     height: 100vh;
-    grid-column: 1 /span 2;
-}
-
-.main-content {
-    background-color: yellow;
-    grid-column: 3 /span 11;
 }
 
 .home-nav {
@@ -43,7 +37,7 @@ body {
 }
 
 .side-nav {
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
     background-color: #121212;
 }
@@ -59,7 +53,7 @@ body {
 .your-libaray {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     align-items: center;
 }
 
@@ -98,4 +92,93 @@ body {
 
 .libaray-arrow i:hover {
     opacity: 1;
+}
+
+.first-playlist {
+    color: white;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    background-color: #242424;
+    border-radius: 8px;
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.help-text {
+    font-size: 0.875rem;
+}
+
+.first-playlist button {
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.main-content {
+    background-color: #242424;
+    grid-column: 2 /span 11;
+    position: relative;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.top-arrow {
+    display: flex;
+    gap: 1rem;
+}
+
+.top-explore-section{
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.explore-btn {
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #ffffff;
+    padding: 0.5rem 0.75rem; 
+    border-radius: 1rem;
+}
+
+.download-btn {
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: #000000;
+    padding: 0.5rem 0.75rem; 
+    border-radius: 1rem;
+    border: 1px solid black;
+    color: #ffffff;
+}
+
+.top-buttons {
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.top-buttons button {
+    font-size: 0.875rem;
+    background-color: hsla(0,1%,100%,.1);
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem;
 }
